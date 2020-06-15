@@ -25,7 +25,7 @@ const CoffeeCard = (props) => {
         title={title}
         subheader={subtitle}
       />
-      <CardMedia image={imageUrl} />
+      <CardMedia style={{ height: '150px' }} image={imageUrl} />
       <CardContent>
         <Typography variant='body2' component='p'>
           {description}
@@ -33,8 +33,6 @@ const CoffeeCard = (props) => {
       </CardContent>
       <CardActions>
         <Button size='small'>BUY NOW</Button>
-      </CardActions>
-      <CardActions>
         <Button size='small'>OFFER</Button>
       </CardActions>
     </Card>
