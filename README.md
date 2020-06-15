@@ -1,3 +1,16 @@
+# Material Ui sandbox - Coffee Maker Shop
+
+- In Progress
+
+An application that simulates a coffee maker shop.
+
+The goal of this exercise is to practice Material UI, using grids, cards and other components such as buttons, typography, icons and so on.
+
+## Technologies:
+
+- React
+- Material UI
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
