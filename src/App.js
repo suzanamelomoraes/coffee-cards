@@ -11,15 +11,11 @@ import amber from '@material-ui/core/colors/amber';
 
 //To overwrite the default theme
 const theme = createMuiTheme({
-    palette: {
-      primary: {
-        main: teal[500],
-      },
-      secondary: {
-        main: amber[500],
-      },
-    },
-  });
+  palette: {
+    primary: teal,
+    secondary: amber,
+  },
+});
 
 const useStyles = makeStyles((theme) => ({
   button: {
