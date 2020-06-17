@@ -4,10 +4,10 @@ import Content from './Content';
 import Offers from './Offers';
 import { Grid, Button, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import { orange, purple } from '@material-ui/core/colors';
 import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import teal from '@material-ui/core/colors/teal';
 import amber from '@material-ui/core/colors/amber';
+import purple from '@material-ui/core/colors/purple';
 
 //To overwrite the default theme
 const theme = createMuiTheme({
@@ -19,9 +19,8 @@ const theme = createMuiTheme({
 
 const useStyles = makeStyles((theme) => ({
   button: {
-    backgroundColor: purple,
     [theme.breakpoints.up('sm')]: {
-      backgroundColor: orange,
+      primary: purple,
       size: 'large',
     },
   },
