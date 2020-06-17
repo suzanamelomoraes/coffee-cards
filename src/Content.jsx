@@ -7,7 +7,7 @@ const Content = () => {
   return (
     <Grid container spacing={2}>
       {coffeeList.map((coffee) => (
-        <Grid item xs={12} sm={4}>
+        <Grid key={coffee.title} item xs={12} sm={4}>
           <CoffeeCard {...coffee} />
         </Grid>
       ))}
